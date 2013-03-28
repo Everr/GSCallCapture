@@ -1,10 +1,7 @@
 <?php
 
 class Database {
-//Comment should appear
-    //Comment should appear
-    //Comment should appear
-    //Comment should appear
+
     public function Select($query) {
         $conn = $this->ConnectToDb();
         //$tsql = "SELECT     TOP (1) UserID FROM M_Users";
