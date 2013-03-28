@@ -11,7 +11,6 @@ class Database {
             die(print_r(sqlsrv_errors(), true));
         }
         $result = sqlsrv_fetch_array($stmt);
-        echo "User login: " . $result[0] . "</br>";
         sqlsrv_free_stmt($stmt);
         $this->CloseDbConnection($conn);
         return $result;
