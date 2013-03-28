@@ -49,10 +49,6 @@ class Database {
 //close the connection
         sqlsrv_close($conn);
     }
-private function test(){
-    
-    
-}
 }
 
 ?>
