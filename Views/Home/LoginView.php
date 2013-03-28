@@ -18,9 +18,6 @@
 
                 <button type="submit" class="green big" name="submit"><span>Login</span></button> <button type="reset" class="grey big"><span>Cancel</span></button>
             </p>
-            <?php
-            echo $reslt;
-            ?>
         </form>
 
     </body>
