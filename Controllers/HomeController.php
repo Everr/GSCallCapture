@@ -12,11 +12,10 @@ class HomeController {
 
     public function invoke() {
 
-        $reslt = $this->model->getlogin();
-        print $reslt;
+        $result = $this->model->getlogin();
+        print '$result: '.$result;
 // it call the getlogin() function of model class and store the return value of this function into the reslt variable.
-        if ($reslt > 0) {
-
+        if ($result) {
             include_once 'Views/Home/Afterlogin.php';
         } else {
             include_once 'Views/Home/LoginView.php';
