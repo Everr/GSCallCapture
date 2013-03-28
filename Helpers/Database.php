@@ -1,7 +1,7 @@
 <?php
 
 class Database {
-
+//Test
     public function Select($query) {
         $conn = $this->ConnectToDb();
         //$tsql = "SELECT     TOP (1) UserID FROM M_Users";
